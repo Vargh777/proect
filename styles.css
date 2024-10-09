@@ -5,7 +5,30 @@ div {
   padding: 0;
   margin: 0;
 }
-
+@font-face {
+  font-family: "TT Lakes Bold";
+  src: url("TTLakes/TTLakes-Bold.woff") format("woff"),
+    url("TTLakes/TTLakes-Bold.ttf") format("ttf"),
+    url("TTLakes/TTLakes-Bold.eot") format("eot");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TT Lakes Medium";
+  src: url("TTLakes/TTLakes-Medium.eot") format("eot"),
+    url("TTLakes/TTLakes-Medium.ttf") format("ttf"),
+    url("TTLakes/TTLakes-Medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TT Lakes Regular";
+  src: url("TTLakes/TTLakes-Regular.eot") format("eot"),
+    url("TTLakes/TTLakes-Regular.ttf") format("ttf"),
+    url("TTLakes/TTLakes-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 .toplist {
   margin: 10px;
   padding: 0;
