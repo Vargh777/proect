@@ -47,6 +47,10 @@ a {
 }
 
 .toplist__burger {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
   background-image: url(images/ic/burger.svg);
   background-repeat: no-repeat;
   padding-right: 40px;
@@ -58,6 +62,10 @@ a {
 }
 
 .toplist__checkstatus {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
   background-image: url(images/ic/checkstatus.svg);
   background-repeat: no-repeat;
   padding-right: 40px;
@@ -82,7 +90,11 @@ a {
   margin-bottom: 18px;
 }
 
-.toplist__Group {
+.toplist__group {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
   background-image: url(images/ic/Group.svg);
   background-repeat: no-repeat;
   padding-right: 96.55px;
@@ -94,6 +106,10 @@ a {
 }
 
 .toplist__repair {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
   background-image: url(images/ic/repair.svg);
   background-repeat: no-repeat;
   padding-right: 40px;
@@ -129,7 +145,7 @@ a {
   margin: 0;
   margin-left: 16px;
   margin-top: 24px;
-  padding: 0;
+  padding: 2px;
   white-space: nowrap;
   display: flex;
   flex-direction: row;
@@ -148,12 +164,9 @@ a {
   padding-right: 16px;
 }
 
-.side-menu__repairable-devices:focus {
-  border: 2px solid rgba(184, 255, 236, 1);
-  border-radius: 6px;
-}
-
+.side-menu__repairable-devices:focus,
 .side-menu__repairable-devices:hover {
+  margin: -2px;
   border: 2px solid rgba(184, 255, 236, 1);
   border-radius: 6px;
 }
@@ -166,12 +179,9 @@ a {
   padding-right: 16px;
 }
 
-.side-menu__additional-services:focus {
-  border: 2px solid rgba(184, 255, 236, 1);
-  border-radius: 6px;
-}
-
+.side-menu__additional-services:focus,
 .side-menu__additional-services:hover {
+  margin: -2px;
   border: 2px solid rgba(184, 255, 236, 1);
   border-radius: 6px;
 }
@@ -184,12 +194,9 @@ a {
   padding-right: 16px;
 }
 
-.side-menu__prices-for-services:focus {
-  border: 2px solid rgba(184, 255, 236, 1);
-  border-radius: 6px;
-}
-
+.side-menu__prices-for-services:focus,
 .side-menu__prices-for-services:hover {
+  margin: -2px;
   border: 2px solid rgba(184, 255, 236, 1);
   border-radius: 6px;
 }
@@ -202,12 +209,9 @@ a {
   padding-right: 16px;
 }
 
+.side-menu__special-prices:hover,
 .side-menu__special-prices:focus {
-  border: 2px solid rgba(184, 255, 236, 1);
-  border-radius: 6px;
-}
-
-.side-menu__special-prices:hover {
+  margin: -2px;
   border: 2px solid rgba(184, 255, 236, 1);
   border-radius: 6px;
 }
@@ -220,12 +224,9 @@ a {
   padding-right: 16px;
 }
 
-.side-menu__repaired-brands:focus {
-  border: 2px solid rgba(184, 255, 236, 1);
-  border-radius: 6px;
-}
-
+.side-menu__repaired-brands:focus,
 .side-menu__repaired-brands:hover {
+  margin: -2px;
   border: 2px solid rgba(184, 255, 236, 1);
   border-radius: 6px;
 }
@@ -238,12 +239,9 @@ a {
   padding-right: 16px;
 }
 
-.side-menu__service-center-addresses:focus {
-  border: 2px solid rgba(184, 255, 236, 1);
-  border-radius: 6px;
-}
-
+.side-menu__service-center-addresses:focus,
 .side-menu__service-center-addresses:hover {
+  margin: -2px;
   border: 2px solid rgba(184, 255, 236, 1);
   border-radius: 6px;
 }
@@ -256,12 +254,9 @@ a {
   padding-right: 16px;
 }
 
-.side-menu__reviews:focus {
-  border: 2px solid rgba(184, 255, 236, 1);
-  border-radius: 6px;
-}
-
+.side-menu__reviews:focus,
 .side-menu__reviews:hover {
+  margin: -2px;
   border: 2px solid rgba(184, 255, 236, 1);
   border-radius: 6px;
 }
