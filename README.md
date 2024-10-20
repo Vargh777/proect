@@ -1,1 +1,1 @@
-https://Vargh777.github.io/proect/
+https://vargh777.github.io/proect/
