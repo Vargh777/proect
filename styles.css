@@ -304,6 +304,7 @@ header {
   .toplist__group {
     order: 3;
     margin-left: 20px;
+    margin-right: 40%;
   }
 
   .toplist__call {
@@ -321,7 +322,7 @@ header {
   .toplist__profile {
     display: block;
     order: 6;
-    margin-right: 20px;
+    margin-right: 10px;
   }
 
   .toplist__divider-two {
