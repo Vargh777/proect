@@ -261,8 +261,7 @@ header {
   outline: none;
   color: inherit;
   text-decoration: none;
-  padding: 7px;
-  padding-top: 10px;
+  padding-top: 16px;
   padding-right: 16px;
   padding-left: 32px;
 }
@@ -347,6 +346,20 @@ header {
   .first-block {
     display: flex;
     flex-direction: row;
+    max-width: 720px;
+    max-height: 208px;
+  }
+
+  .text {
+    flex: 1;
+    max-width: 312px;
+    max-height: 160px;
+    overflow: hidden;
+  }
+  
+  .image {
+    max-width: 360px;
+    max-width: 208px;
   }
 }
 
