@@ -1,6 +1,7 @@
 body {
   font-family: "TT Lakes Regular", sans-serif;
   background-color: rgba(248, 248, 248, 1);
+  font-size: 14px;
 }
 
 body,
@@ -247,23 +248,40 @@ header {
   padding: 16px;
   display: flex;
   flex-direction: column;
-  flex: 2;
 }
 
 .first-block_image > :first-child {
   flex: 1;
+  width: 320px;
+  height: 176px;
+  overflow: hidden;
+}
+
+.first-block_text {
+  display: flex;
+  flex-direction: column;
+  width: 288px;
+  height: 130px;
+}
+
+.first-block_text_size-limit{
   width: 288px;
   height: 90px;
   overflow: hidden;
 }
 
 .first-block_read-more {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
   outline: none;
   color: inherit;
   text-decoration: none;
   padding-top: 16px;
   padding-right: 16px;
   padding-left: 32px;
+  border-bottom: 1px solid #d9fff5;
 }
 
 .first-block_read-more::before {
@@ -341,31 +359,38 @@ header {
     order: 9;
     margin-right: 16px;
   }
-  .first-block_visible-from-768px {
-    display: block;
-  }
 
   .first-block {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
     max-width: 720px;
     max-height: 208px;
+    padding-top: 32px;
+    padding-left: 24px;
+    padding-right: 25px;
+    padding-bottom: 40px;
   }
 
   .first-block_text {
-    flex: 1;
     display: flex;
-    flex-direction: row;
-    max-width: 312px;
-    max-height: 160px;
+    flex-direction: column;
+    width: 337px;
+    height: 170px;
     overflow: hidden;
+  }
+
+  .first-block_text_size-limit {
+    width: 312px;
+    height: 160px;
   }
   
   .first-block_image > :first-child {
-    flex: 1;
-    width: 380px;
+    width: 360px;
     height: 208px;
-    border-radius: 20px;
+    border-radius: 10px;
+    margin-left: 48px;
+    padding-top: 0px;
   }
 }
 
