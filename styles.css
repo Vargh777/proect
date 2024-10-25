@@ -2,9 +2,10 @@ body {
   font-family: "TT Lakes Regular", sans-serif;
   background-color: rgba(248, 248, 248, 1);
   font-size: 14px;
-  max-width: 1120px
+  max-width: 1120px;
+  box-sizing: border-box;
+  margin: auto;
 }
-
 body,
 header,
 p,
@@ -12,7 +13,6 @@ div,
 h1,
 a {
   padding: 0;
-  margin: 0;
 }
 
 main {
@@ -399,20 +399,23 @@ header {
 }
 
 @media (min-width: 1120px) {
+
   .toplist {
     display: none;
   }
 
-  .title{
+  .title {
     display: flex;
     flex-direction: row;
+    margin-top: 42px;
+    margin-right: 25px;
   }
 
   .title__nav {
     display: block;
     display: flex;
     flex-direction: row;
-    margin-left: 47%;
+    margin-left: 46%;
 
   }
 
