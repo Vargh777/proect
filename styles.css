@@ -58,48 +58,32 @@ header {
   border-bottom: 1px solid #d9fff5;
 }
 
-.toplist__burger {
+.styles-button {
   border: none;
   background: none;
   padding: 0;
   cursor: pointer;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  margin: 10px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.toplist__burger {
   background-image: url(images/ic/burger.svg);
   background-repeat: no-repeat;
-  padding-right: 40px;
-  padding-bottom: 40px;
   order: 1;
-  margin: 10px;
-  margin-top: 18px;
-  margin-bottom: 18px;
-}
+  }
 
 .toplist__checkstatus {
-  border: none;
-  background: none;
-  padding: 0;
-  cursor: pointer;
   background-image: url(images/ic/checkstatus.svg);
   background-repeat: no-repeat;
-  padding-right: 40px;
-  padding-bottom: 40px;
   order: 5;
-  margin: 10px;
-  margin-top: 18px;
-  margin-bottom: 18px;
-}
+  }
 
 .toplist__divider {
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 2px;
-  background-color: rgba(234, 234, 234, 1);
-  padding-right: 2px;
-  padding-bottom: 32px;
   order: 3;
-  margin: 10px;
-  margin-top: 18px;
-  margin-bottom: 18px;
 }
 
 .toplist__group {
@@ -109,75 +93,47 @@ header {
   cursor: pointer;
   background-image: url(images/ic/Group.svg);
   background-repeat: no-repeat;
-  padding-right: 96.55px;
-  padding-bottom: 50.81px;
+  padding-right: 96px;
+  padding-bottom: 52px;
   order: 2;
   margin: 10px;
   margin-top: 18px;
   margin-bottom: 18px;
-}
+  }
 
 .toplist__repair {
-  border: none;
-  background: none;
-  padding: 0;
-  cursor: pointer;
   background-image: url(images/ic/repair.svg);
   background-repeat: no-repeat;
-  padding-right: 40px;
-  padding-bottom: 40px;
   order: 4;
-  margin-top: 18px;
-  margin-bottom: 18px;
-}
+  }
 
 .toplist__call {
   display: none;
-  border: none;
-  background: none;
-  padding: 0;
-  cursor: pointer;
   background-image: url(images/ic/call.svg);
   background-repeat: no-repeat;
-  padding-right: 40px;
-  padding-bottom: 40px;
   order: 4;
-  margin-top: 18px;
-  margin-bottom: 18px;
 }
 
 .toplist__chat {
   display: none;
-  border: none;
-  background: none;
-  padding: 0;
-  cursor: pointer;
   background-image: url(images/ic/chat.svg);
   background-repeat: no-repeat;
-  padding-right: 40px;
-  padding-bottom: 40px;
   order: 4;
-  margin-top: 18px;
-  margin-bottom: 18px;
 }
 
 .toplist__profile {
   display: none;
-  border: none;
-  background: none;
-  padding: 0;
-  cursor: pointer;
   background-image: url(images/ic/profile.svg);
   background-repeat: no-repeat;
-  padding-right: 40px;
-  padding-bottom: 40px;
   order: 4;
-  margin-top: 18px;
-  margin-bottom: 18px;
 }
 
 .toplist__divider-two {
   display: none;
+  order: 3;
+}
+
+.divider {
   top: 0;
   bottom: 0;
   left: 0;
@@ -185,7 +141,6 @@ header {
   background-color: rgba(234, 234, 234, 1);
   padding-right: 2px;
   padding-bottom: 32px;
-  order: 3;
   margin: 10px;
   margin-top: 18px;
   margin-bottom: 18px;
