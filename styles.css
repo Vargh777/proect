@@ -222,6 +222,7 @@ header {
 .first-block_text {
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
 }
 
 .first-block_text_size-limit {
@@ -251,9 +252,7 @@ header {
 }
 
 .first-block_image > :first-child {
-  width: 320px;
-  height: 176px;
-  padding-top: 16px;
+  flex-grow: 1;
 }
 
 .title__nav {
