@@ -1,8 +1,6 @@
 body {
   font-family: "TT Lakes Regular", sans-serif;
   background-color: rgba(248, 248, 248, 1);
-  font-size: 14px;
-  max-width: 1120px;
   box-sizing: border-box;
   margin: auto;
 }
@@ -16,12 +14,13 @@ a {
 }
 
 main {
-  background-color: #F8F8F8;
-
+  background-color: #f8f8f8;
+  max-width: 1120px;
 }
 
 header {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
+  max-width: 1120px;
 }
 
 @font-face {
@@ -55,6 +54,7 @@ header {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
   border-bottom: 1px solid #d9fff5;
 }
 
@@ -74,13 +74,13 @@ header {
   background-image: url(images/ic/burger.svg);
   background-repeat: no-repeat;
   order: 1;
-  }
+}
 
 .toplist__checkstatus {
   background-image: url(images/ic/checkstatus.svg);
   background-repeat: no-repeat;
   order: 5;
-  }
+}
 
 .toplist__divider {
   order: 3;
@@ -99,13 +99,13 @@ header {
   margin: 10px;
   margin-top: 18px;
   margin-bottom: 18px;
-  }
+}
 
 .toplist__repair {
   background-image: url(images/ic/repair.svg);
   background-repeat: no-repeat;
   order: 4;
-  }
+}
 
 .toplist__call {
   display: none;
@@ -146,8 +146,6 @@ header {
   margin-bottom: 18px;
 }
 
-/* Рамка наоборот?? */
-
 .title__strip {
   font-family: "TT Lakes Bold";
   font-size: 24px;
@@ -183,8 +181,7 @@ header {
   flex-wrap: nowrap;
   max-height: 40px;
   overflow: auto;
-  color: #7E7E82;
-  ;
+  color: #7e7e82;
 }
 
 .side-menu__links-style {
@@ -207,24 +204,27 @@ header {
   padding: 16px;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.first-block_image {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  height: auto;
 }
 
 .first-block_image > :first-child {
   flex: 1;
-  width: 320px;
-  height: 176px;
   overflow: hidden;
 }
 
 .first-block_text {
   display: flex;
   flex-direction: column;
-  width: 288px;
-  height: 130px;
 }
 
-.first-block_text_size-limit{
-  width: 288px;
+.first-block_text_size-limit {
   height: 90px;
   overflow: hidden;
 }
@@ -240,15 +240,14 @@ header {
   padding-top: 16px;
   padding-right: 16px;
   padding-left: 32px;
-  border-bottom: 1px solid #d9fff5;
 }
 
 .first-block_read-more::before {
-    content: url(images/ic/icon.svg);
-    position: absolute;
-    width: 4px;
-    height: 4px;
-    margin-left: -15px;
+  content: url(images/ic/icon.svg);
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  margin-left: -15px;
 }
 
 .first-block_image > :first-child {
@@ -261,15 +260,14 @@ header {
   display: none;
 }
 
-@media (min-width: 768px) and (max-width: 1119px){
-
+@media (min-width: 768px) and (max-width: 1119px) {
   .toplist {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  
-  .toplist__burger{
+
+  .toplist__burger {
     order: 1;
     margin-left: 24px;
   }
@@ -282,7 +280,7 @@ header {
   .toplist__group {
     order: 3;
     margin-left: 20px;
-    margin-right: 31%;
+    margin-right: 24%;
   }
 
   .toplist__call {
@@ -309,7 +307,7 @@ header {
     margin-right: 20px;
   }
 
-  .toplist__repair{
+  .toplist__repair {
     order: 8;
     margin-right: 16px;
   }
@@ -323,8 +321,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    max-width: 720px;
-    max-height: 208px;
+    overflow: hidden;
     padding-top: 32px;
     padding-left: 24px;
     padding-right: 25px;
@@ -334,21 +331,22 @@ header {
   .first-block_text {
     display: flex;
     flex-direction: column;
-    width: 337px;
-    height: 170px;
     overflow: hidden;
+    max-width: 50%;
   }
 
-  .first-block_text_size-limit {
-    width: 312px;
-    height: 160px;
+  .first-block_image {
+    max-width: 50%;
   }
-  
+
+  .first-block_read-more {
+    flex: auto;
+    max-width: 50%;
+  }
+
   .first-block_image > :first-child {
-    width: 360px;
-    height: 208px;
     border-radius: 10px;
-    margin-left: 48px;
+    margin-left: 5%;
     padding-top: 0px;
   }
 }
@@ -370,7 +368,6 @@ header {
     display: flex;
     flex-direction: row;
     margin-left: 46%;
-
   }
 
   .button-stile1 {
@@ -402,9 +399,8 @@ header {
     background-repeat: no-repeat;
     padding-right: 40px;
     padding-bottom: 40px;
-
   }
-  
+
   .repair-status {
     border: none;
     background: none;
@@ -416,7 +412,13 @@ header {
     background-repeat: no-repeat;
     padding-right: 40px;
     padding-bottom: 40px;
+  }
 
+  .side-menu {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1063px;
+    max-height: 82px;
   }
 
   .first-block {
@@ -443,7 +445,7 @@ header {
     width: 490px;
     height: 160px;
   }
-  
+
   .first-block_image > :first-child {
     width: 531px;
     height: 307px;
