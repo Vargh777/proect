@@ -13,12 +13,12 @@ a {
   padding: 0;
 }
 
-main {
+.background-basic-style {
   background-color: #f8f8f8;
   max-width: 1120px;
 }
 
-header {
+.background-head-style {
   background-color: #ffffff;
   max-width: 1120px;
 }
@@ -226,7 +226,7 @@ header {
 }
 
 .first-block_text_size-limit {
-  height: 90px;
+  flex-grow: 1;
   overflow: hidden;
 }
 
