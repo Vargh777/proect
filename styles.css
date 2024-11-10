@@ -219,11 +219,13 @@ a {
 .first-block_text {
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
+  max-height: 320px;
 }
 
 .first-block_text_size-limit {
-  overflow: hidden;
+  display: grid;
+  flex-direction: column;
+  max-height: 240px;
 }
 
 .first-block_read-more {
