@@ -1,7 +1,7 @@
 body {
   font-family: "TT Lakes Regular", sans-serif;
   background-color: rgba(248, 248, 248, 1);
-  box-sizing: border-box;
+
   margin: auto;
 }
 body,
@@ -220,12 +220,14 @@ a {
   display: flex;
   flex-direction: column;
   max-height: 320px;
+  overflow: hidden;
 }
 
 .first-block_text_size-limit {
-  display: grid;
+  display: flex;
   flex-direction: column;
-  max-height: 240px;
+  max-height: 160px;
+  overflow: hidden;
 }
 
 .first-block_read-more {
@@ -330,11 +332,6 @@ a {
     flex-direction: column;
     overflow: hidden;
     max-width: 50%;
-    max-height: 312px;
-    overflow: auto;
-  }
-
-  .first-block_text_size-limit {
     max-height: 312px;
     overflow: auto;
   }
