@@ -353,6 +353,11 @@ a {
 }
 
 @media (min-width: 1120px) {
+body {
+  display: grid;
+  place-items: center;
+}
+
   .toplist {
     display: none;
   }
@@ -360,14 +365,16 @@ a {
   .title {
     display: flex;
     flex-direction: row;
-    margin-top: 42px;
-    margin-right: 25px;
+    justify-content: center;
+    padding-top: 42px;
+    padding-right: 25px;
   }
 
   .title__nav {
     display: block;
     display: flex;
     flex-direction: row;
+    padding-top: 24px;
     margin-left: 46%;
   }
 
@@ -395,7 +402,7 @@ a {
     padding: 0;
     cursor: pointer;
     padding-right: 50px;
-    display: inline-block;
+    display: flex;
     background-image: url(images/ic/checkstatus.svg);
     background-repeat: no-repeat;
     padding-right: 40px;
@@ -408,7 +415,7 @@ a {
     padding: 0;
     cursor: pointer;
     padding-right: 50px;
-    display: inline-block;
+    display: flex;
     background-image: url(images/ic/repair.svg);
     background-repeat: no-repeat;
     padding-right: 40px;
