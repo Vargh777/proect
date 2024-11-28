@@ -216,14 +216,14 @@ a {
   overflow: hidden;
 }
 
-.first-block_text {
+.first-block__text {
   display: flex;
   flex-direction: column;
   max-height: 320px;
   overflow: hidden;
 }
 
-.first-block_text_size-limit {
+.first-block__text--size-limit {
   display: flex;
   flex-direction: column;
   max-height: 160px;
@@ -327,7 +327,7 @@ a {
     padding-bottom: 40px;
   }
 
-  .first-block_text {
+  .first-block__text {
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -441,13 +441,13 @@ body {
     padding-bottom: 40px;
   }
 
-  .first-block_text {
+  .first-block__text {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
   }
 
-  .first-block_text_size-limit {
+  .first-block__text--size-limit {
     flex-grow: 0.5;
   }
 
